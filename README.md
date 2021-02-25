@@ -1,7 +1,7 @@
 # Django Plot Dash | Examples
 In this repository, I'll be working with the package [django-plotly-dash](https://django-plotly-dash.readthedocs.io/en/latest/index.html), exemplifying different types of plots.
 
-Follow the **Usage** instructions to run it locally. If you want to add examples of your own, read the **Adding Examples** section.
+Follow the [Usage](https://github.com/ignacio-nava/django_plot_dash_examples/blob/master/README.md#clone) instructions to run it locally. If you want to add examples of your own, read the **Adding Plots** section.
 
 
 ## Clone
@@ -32,3 +32,5 @@ python3 manage.py migrate
 ```bash
 python3 manage.py runserver
 ```
+
+## Adding Plots
