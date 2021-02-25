@@ -34,3 +34,16 @@ python3 manage.py runserver
 ```
 
 ## Adding Plots
+1. In the folder [django_plot_dash_examples/django_pd_examples/plots/plots_examples/](https://github.com/ignacio-nava/django_plot_dash_examples/tree/master/django_pd_examples/plots/plots_examples), add a python file-like [example_1.py](https://github.com/ignacio-nava/django_plot_dash_examples/blob/master/django_pd_examples/plots/plots_examples/example_1.py). 
+
+2. Then name the App with the same name as the python file. For example, if the file is called *my_own_example.py* you must use:
+```python
+app = DjangoDash('my_own_example')
+```
+
+3. Finally, in [examples.py](https://github.com/ignacio-nava/django_plot_dash_examples/tree/master/django_pd_examples/plots/plots_examples), import your plot.
+```python
+from . import example_1.py, my_own_example
+```
+
+After this, you will be able to see the link to your plot on the homepage.
