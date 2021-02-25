@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Example Nº {{example|last}}</h1>
+    <h1>{{ example }}</h1>
     <ul>
         <li>Reference: <a href="{{ reference.url }}" target="_blank">{{ reference.name }}</a></li>
         <li><a href="{% url 'home:homepage' %}">Home</a></li>

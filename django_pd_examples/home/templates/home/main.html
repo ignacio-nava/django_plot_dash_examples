@@ -6,7 +6,9 @@
     <ul>
         {% for example in examples %}
         <li>
-            <a href="{% url 'plots:plot_detail' example %}" style="text-decoration: none;">Example Nº{{ example|last }}</a>
+            <a href="{% url 'plots:plot_detail' example %}" style="text-decoration: none;">
+                <strong>{{ example }}</strong>
+            </a>
         </li>
         {% endfor %}
     </ul>
