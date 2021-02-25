@@ -1,13 +1,13 @@
 # Django Plot Dash | Examples
 In this repository, I'll be working with the package [django-plotly-dash](https://django-plotly-dash.readthedocs.io/en/latest/index.html)
 
-# Clone
+## Clone
 ```bash
 git clone https://github.com/ignacio-nava/django_plot_dash_examples.git
 cd django_plot_dash_examples/
 ```
 
-# Usage
+## Usage
 1. Create a virtual environment and activate it
 ```bash
 python3 -m venv {venv_name}
