@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load plotly_dash %}
+
+{% block head %}
+    <style>
+        iframe {
+            background-color: #fff;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <h1>Example Nº {{example|last}}</h1>
+    <ul>
+        <li>Reference: <a href="{{ reference.url }}" target="_blank">{{ reference.name }}</a></li>
+        <li><a href="{% url 'home:homepage' %}">Home</a></li>
+    </ul>
+    <hr>
+    <div>
+        {% with example as example_name %}
+            {% plotly_app name=example_name %}
+        {% endwith %}
+    </div>
+    <hr>
+{% endblock %}

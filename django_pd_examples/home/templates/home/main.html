@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h1>Examples</h1>
+    <ul>
+        {% for example in examples %}
+        <li>
+            <a href="{% url 'plots:plot_detail' example %}" style="text-decoration: none;">Example Nº{{ example|last }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

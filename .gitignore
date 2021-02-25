@@ -1,0 +1,4 @@
+.vscode
+.DS_Store
+venvDPDExamples
+django_pd_examples/db.sqlite3
