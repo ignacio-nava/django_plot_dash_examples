@@ -43,7 +43,7 @@ app = DjangoDash('my_own_example')
 
 3. Finally, in [examples.py](https://github.com/ignacio-nava/django_plot_dash_examples/tree/master/django_pd_examples/plots_examples/examples.py), import your plot.
 ```python
-from . import example_1.py, my_own_example
+from . import example_1, my_own_example
 ```
 
 After this, you will be able to see the link to your plot on the homepage.
