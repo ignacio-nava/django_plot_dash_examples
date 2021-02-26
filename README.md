@@ -34,7 +34,7 @@ python3 manage.py runserver
 ```
 
 ## Adding Plots
-1. In the folder [django_plot_dash_examples/django_pd_examples/plots_examples/](https://github.com/ignacio-nava/django_plot_dash_examples/tree/master/django_pd_examples/plots_examples), add a python file-like [example_1.py](https://github.com/ignacio-nava/django_plot_dash_examples/blob/master/django_pd_examples/plots_examples/example_1.py). 
+1. In the folder [django_pd_examples/plots_examples/](https://github.com/ignacio-nava/django_plot_dash_examples/tree/master/django_pd_examples/plots_examples), add a python file-like [example_1.py](https://github.com/ignacio-nava/django_plot_dash_examples/blob/master/django_pd_examples/plots_examples/example_1.py). 
 
 2. Then name the [app](https://github.com/ignacio-nava/django_plot_dash_examples/blob/cf47e74353162a2af3bc326d46bb52e56e09b50f/django_pd_examples/plots_examples/example_1.py#L7) as the python file. For example, if the file is called *my_own_example.py* you must use:
 ```python
