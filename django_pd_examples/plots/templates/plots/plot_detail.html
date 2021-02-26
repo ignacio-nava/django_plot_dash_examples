@@ -17,8 +17,8 @@
     </ul>
     <hr>
     <div>
-        {% with example as example_name %}
-            {% plotly_app name=example_name %}
+        {% with example_name=example ratio=ratio %}
+            {% plotly_app name=example_name ratio=ratio %}
         {% endwith %}
     </div>
     <hr>
