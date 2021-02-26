@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .plots_examples import examples
+from plots_examples import examples
 
 def exampleDetailView(request, example):
     template_name = 'plots/plot_detail.html'
