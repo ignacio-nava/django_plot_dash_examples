@@ -11,6 +11,8 @@ reference = {
     'url': 'https://django-plotly-dash.readthedocs.io/en/latest/simple_use.html'
 }
 
+ratio = 0.1
+
 app.layout = html.Div(
     children=[
         dcc.RadioItems(
