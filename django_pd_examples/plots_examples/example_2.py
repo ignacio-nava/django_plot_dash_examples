@@ -44,16 +44,3 @@ app.layout = html.Div(
         )
     ]
 )
-
-# app.layout = html.Div(
-#     children=[
-#         html.H1(children='Hello Dash'),
-#         html.Div(children=
-#             '''Dash: a web application framework for Python'''
-#         ),
-#         dcc.Graph(
-#             id='example-graph',
-#             figure=fig
-#         )
-#     ]
-# )
